@@ -16,6 +16,6 @@ public class DrawingTriangle : MonoBehaviour
             new Vector3(1,-1,0)
         };
 
-        meshFilter.mesh.triangles = new int[] { 0, 1, 2 };
+        meshFilter.mesh.triangles = new int[] { 0, 1, 2,  };
     }
 }
